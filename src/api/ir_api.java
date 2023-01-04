@@ -1,6 +1,6 @@
-package IR_ERGASIA_API;
 
-import IR_ERGASIA.*;
+
+import search_engine.*;
 
 import org.rapidoid.annotation.Valid;
 import org.rapidoid.http.MediaType;
