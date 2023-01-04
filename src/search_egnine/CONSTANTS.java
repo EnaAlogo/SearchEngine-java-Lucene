@@ -53,7 +53,7 @@ class UTILS{
 	protected static long get_date(File f) 
 	throws IOException, ParseException
 	{
-		   //bruteforce
+		   //bruteforce to extract 20 newsgroup dataset's dates from text
 		   final String formats[]={"EEE, d MMM yyyy HH:mm:ss z","d MMM yy HH:mm:ss z","d MMM yyyy HH:mm:ss z","d MMM yyyy HH:mm z",
 				"d MMM yyyy HH:mm:ss","d-MM MMMMM yyyy","MMMMM d-MM, yyyy","EEEEEE, d MMM yy HH:mm:ss z","EEE, d MMM yyyy HH:mm:ss"
 				 ,"EEE, d MMM yyyy HH:mm z","d MMM yyyy HH:mm z"};
